@@ -35,7 +35,19 @@
   border: 1px solid red;
   background-color: coral;
   flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  ;
 }
+
+.subconteudo1,
+.subconteudo2,
+.subconteudo3 {
+  border: 1px solid red;
+  background-color: white;
+  flex-grow: 1;
+}
+
 .conteudo2 {
   border: 1px solid red;
   background-color: blueviolet;
@@ -44,6 +56,7 @@
 .rodape {
   border: 1px solid red;
   background-color: brown;
+  height: 100px;
 }
 
 .titulo {
@@ -51,8 +64,6 @@
   /* background-color: whitesmoke; */
   flex-grow: 1;
   height: 100px;
-
-
 }
 .menu {
   border: 1px solid red;
@@ -63,8 +74,8 @@
   justify-content: left;
   align-items: flex-end;
 }
-.menu a{
-    padding: 5px;
+.menu a {
+  padding: 5px;
 }
 
 /* }
